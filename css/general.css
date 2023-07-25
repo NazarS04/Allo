@@ -1,0 +1,43 @@
+:root {
+  --bg-white: #fff;
+  --bg-black: #252A2C;
+  --bg-light-gray: #F5F4F4;
+  --bg-gray-hover: #333e481a;
+  --bg-dark-gray: #2F3133;
+  --bg-blue: #4FB7F6;
+  --bg-purple: #7858F1;
+  --bg-orange: rgba(249, 121, 136, 1);
+
+  --text-white: #fff;
+  --text-black: #222A31;
+
+  --border-gray: #ced4d9cc;
+
+  --product-card-bg-black:#252A2C;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+
+  color: var(--text-black);
+  font-family: "Gotham", sans-serif;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+[class*="__container"] {
+  max-width: 1632px;
+  /*width: 100%;*/
+  margin: 0 auto;
+  padding: 0 16px;
+}

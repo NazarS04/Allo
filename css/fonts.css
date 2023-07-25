@@ -1,0 +1,38 @@
+/* Arial 400, 700 */
+@font-face {
+  font-family: "Arial";
+  font-weight: 400;
+  src:local("Arial Regular"), local("Arial-Regular"),
+  url("../fonts/Arial/Arial-Regular.woff2") format("woff2"),
+  url("../fonts/Arial/Arial-Regular.woff") format("woff"),
+  url("../fonts/Arial/Arial-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Arial";
+  font-weight: 700;
+  src:local("Arial Bold"), local("Arial-Bold"),
+  url("../fonts/Arial/Arial-Bold.woff2") format("woff2"),
+  url("../fonts/Arial/Arial-Bold.woff") format("woff"),
+  url("../fonts/Arial/Arial-Bold.ttf") format("truetype");
+}
+
+/* Gotham 400, 500*/
+
+@font-face {
+  font-family: "Gotham";
+  font-weight: 400;
+  src:local("Gotham"),
+  url("../fonts/Gotham/Gotham-Book.woff2") format("woff2"),
+  url("../fonts/Gotham/Gotham-Book.woff") format("woff"),
+  url("../fonts/Gotham/Gotham-Book.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham";
+  font-weight: 500;
+  src:local("Gotham"),
+  url("../fonts/Gotham/Gotham-Medium.woff2") format("woff2"),
+  url("../fonts/Gotham/Gotham-Medium.woff") format("woff"),
+  url("../fonts/Gotham/Gotham-Medium.ttf") format("truetype");
+}

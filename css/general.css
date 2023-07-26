@@ -10,10 +10,11 @@
 
   --text-white: #fff;
   --text-black: #222A31;
+  --text-blue: #2881F6;
 
   --border-gray: #ced4d9cc;
 
-  --product-card-bg-black:#252A2C;
+  --product-card-bg-black: #252A2C;
 }
 
 a {

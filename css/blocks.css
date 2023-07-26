@@ -55,9 +55,3 @@
     font-size: 1.375rem;
   }
 }
-
-@media (max-width: 450px) {
-  .second__title{
-    text-align: center;
-  }
-}

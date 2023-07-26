@@ -1,3 +1,7 @@
+.main {
+  padding-bottom: 120px;
+}
+
 /*--------------- Logitech ---------------*/
 
 .logitech {
@@ -403,7 +407,7 @@
 }
 
 @media (max-width: 576px) {
-  .for-home-amd-office__container{
+  .for-home-amd-office__container {
     padding-top: 80px;
   }
 
@@ -413,7 +417,7 @@
 }
 
 @media (max-width: 450px) {
-  .for-home-amd-office__container{
+  .for-home-amd-office__container {
     padding-top: 60px;
   }
 
@@ -466,7 +470,7 @@
 .for-gaming__wrapper {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 370px 170px 380px;
+  grid-template-rows: 380px 170px 380px;
   gap: 16px;
 
   color: var(--text-white)
@@ -546,7 +550,7 @@
 }
 
 @media (max-width: 576px) {
-  .for-gaming__container{
+  .for-gaming__container {
     padding-top: 80px;
   }
 
@@ -556,7 +560,7 @@
 }
 
 @media (max-width: 450px) {
-  .for-gaming__container{
+  .for-gaming__container {
     padding-top: 60px;
   }
 
@@ -588,5 +592,203 @@
   .for-gaming__product-card:last-child {
     grid-column: 1/span 4;
     grid-row: 5/6;
+  }
+}
+
+/*--------------- top-products ---------------*/
+
+.top-products__swiper {
+  padding-bottom: 10px;
+}
+
+.top-products__container {
+  padding-top: 120px;
+}
+
+.top-products__title {
+  margin-bottom: 32px;
+
+  font-weight: 500;
+  text-transform: none;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+
+  height: auto;
+  padding: 16px;
+
+  border-radius: 16px;
+  box-shadow: 0 2px 8px 0 rgba(51, 62, 72, 0.12);
+}
+
+.slide-top-products__img {
+  position: relative;
+
+  width: 100%;
+  height: 164px;
+}
+
+.slide-top-products__img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+}
+
+.slide-top-products__product-name {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 137.5%; /* 137.5% */
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+  .top-products__container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .top-products__title {
+    padding: 0 16px;
+  }
+
+  .top-products__swiper {
+    padding: 0 16px 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .slide-top-products__product-name {
+    font-size: 0.875rem;
+  }
+}
+
+/*--------------- Articles ---------------*/
+
+.articles__swiper {
+  padding-bottom: 10px;
+}
+
+.articles__container {
+  padding-top: 120px;
+}
+
+.articles__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 32px;
+}
+
+.articles__title {
+  font-weight: 500;
+
+  text-transform: none;
+}
+
+.articles__more {
+  display: flex;
+  align-items: center;
+  gap:6px;
+
+  color: var(--text-blue);
+  font-family: "Arial", sans-serif;
+  font-size: 0.875rem;
+  line-height: 114.286%; /* 114.286% */
+  letter-spacing: 0.32px;
+}
+
+.articles__more:after {
+  content: "";
+
+  display: block;
+  width: 8px;
+  height: 8px;
+
+  background-image: url("../img/blue-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.article{
+  height: auto;
+}
+
+.article__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+
+  height: 100%;
+
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px 0 rgba(51, 62, 72, 0.12);
+}
+
+.article__img {
+  position: relative;
+
+  width: 100%;
+  height: 200px;
+}
+
+.article__img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+.article__product-name {
+  padding: 0 16px 16px;
+
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 120%; /* 120% */
+  letter-spacing: -0.24px;
+}
+
+@media (max-width: 1200px) {
+  .articles__container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .articles__info{
+    padding: 0 16px;
+  }
+
+  .articles__swiper {
+    padding: 0 16px 10px;
+  }
+}
+
+@media(max-width: 768px){
+  .articles__more{
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .slide-top-products__product-name {
+    font-size: 0.875rem;
   }
 }
